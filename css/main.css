@@ -19,7 +19,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #e0e0e0;
   outline: none;
 }
 h1,
@@ -55,7 +55,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #e0e0e0;
   color: white;
 }
 hr.star-primary {
@@ -70,8 +70,8 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  background: #e0e0e0;
+  color: #2c3e50;
   height: 100vh;
 }
 header .container {
@@ -87,7 +87,6 @@ header img {
 
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -109,10 +108,6 @@ header .intro-text .skills {
   }
 }
 
-.landing {
-  height: 100vh;
-}
-
 .profile-pic {
   display: block;
   max-width: 100%;
@@ -132,6 +127,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-brand {
   color: white;
+  font-family: 'Permanent Marker', cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -146,7 +142,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #e0e0e0;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -154,14 +150,14 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #18BC9C;
+  color: #2c3e50;
+  background: #e0e0e0;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #e0e0e0;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -171,9 +167,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #e0e0e0;
   color: white;
-  border-color: #18BC9C;
+  border-color: #e0e0e0;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -195,16 +191,17 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
-section {
-  padding: 100px 0;
+#about, #contact {
+  height: 90vh;
 }
 section h2 {
   margin: 0;
+  margin-top: 100px;
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
+  background: #e0e0e0;
+  color: #2c3e50;
 }
 @media (max-width: 767px) {
   section {
@@ -221,6 +218,9 @@ section.success {
 ul {
     margin-top: 0;
     margin-bottom: 0;
+}
+#portfolio {
+  padding-bottom: 30px;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -310,7 +310,7 @@ ul {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #e0e0e0;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -344,7 +344,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #e0e0e0;
   background: white;
   border: solid 2px white;
 }
@@ -392,8 +392,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #e0e0e0;
+  border-color: #e0e0e0;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -425,11 +425,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #e0e0e0;
+  border-color: #e0e0e0;
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: #e0e0e0;
   background-color: white;
 }
 .btn-social {
