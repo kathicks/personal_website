@@ -1,4 +1,4 @@
-/*!
+682203/*!
  * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -10,9 +10,11 @@ body {
 
 p {
   font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 p.small {
   font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 a,
 a:hover,
@@ -118,6 +120,7 @@ header .intro-text .skills {
   max-width: 100%;
   height: 246px;
   border-radius: 50%;
+  border: 3px solid #FFFFFF;
 }
 
 .navbar-custom {
@@ -225,7 +228,7 @@ ul {
     margin-bottom: 0;
 }
 #portfolio {
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -685,4 +688,25 @@ fieldset[disabled] .btn-success.active {
   top: auto;
   bottom: 0px;
   left: 43px;
+}
+
+.portfolio-image {
+  background-size: auto 260px;
+  background-position: center center;
+  width: 100%;
+  height: 180px;
+  border: 0.5px solid #eeeeee;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px #b4b4b4;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+.button-group {
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
