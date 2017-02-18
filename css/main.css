@@ -250,6 +250,7 @@ section h2 {
 
 #about {
   height: 85vh;
+  text-align: justify;
 }
 
 ul {
