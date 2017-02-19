@@ -3,7 +3,7 @@
 
 ### View
 
-* Visit [kathicks.co.uk](kathicks.co.uk) to see the site
+* Visit [kathicks.co.uk](http://kathicks.co.uk) to see the site
 
 ### Tools
 
