@@ -35,6 +35,18 @@ header {
     justify-content: center;
 }
 
+.circle {
+  background-color: #ED705E;
+  opacity: 0.75;
+  height: 650px;
+  width: 650px;
+  border-radius: 50%;
+  float: right;
+  position: absolute;
+  top: 63.75%; left: 114%;
+  transform: translate(-50%,-50%);
+}
+
 .name {
     font-family: Courier;
     font-size: 5em;
