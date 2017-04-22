@@ -210,6 +210,10 @@ header {
 
 /* ---------------- GRID --------------- */
 
+.portfolio-items {
+  margin-bottom: 40px;
+}
+
 .portfolio-item {
     position: relative;
     width: 390px;
