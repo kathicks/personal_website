@@ -47,19 +47,4 @@ $(window).load(function(){
       showCursor: false
 		});
 
-    // RANDOM BACKGROUND COLOUR FOR PORTFOLIO ITEMS
-    var colours = [
-      '#D6606A',
-      '#B48EE8',
-      '#A9E1FF',
-      '#8EE8A2',
-      '#FFFB9C',
-    ]
-
-    function getRand(min, max) {
-      return Math.floor(Math.random() * (max - min)) + min;
-    }
-
-    $('.portfolio-item').css('background-color', colours[getRand(0, 5)]);
-
 });

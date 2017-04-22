@@ -217,6 +217,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #D6606A;
 }
 
 .portfolio-image {
@@ -231,10 +232,12 @@ header {
 .portfolio-header {
     font-size: 2em;
     text-align: center;
+    color: white;
 }
 
 .portfolio-date {
     text-align: center;
+    color: white;
 }
 
 .nopadding {
@@ -249,8 +252,22 @@ header {
     text-align: justify;
 }
 
-.about-top {
-  margin-top: 120px;
+.about-info {
+  margin-top: 75px;
+}
+
+.text {
+  padding-top: 20px;
+}
+
+.profile-pic {
+  height: 160px;
+  width: 160px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: auto 110%;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 hr {
