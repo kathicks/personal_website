@@ -86,22 +86,26 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="portfolioFilter button-group">
-                        <a class="filter" href="#" data-filter="*" class="current">Show all</a>
-                        <a class="filter" href="#" data-filter=".software-development">Software Development</a>
-                        <a class="filter" href="#" data-filter=".data-vis">Data Visualisation</a>
-                        <a class="filter" href="#" data-filter=".maps">Maps</a>
-                        <a class="filter" href="#" data-filter=".writing">Writing</a>
+
+                    <div class="portfolioFilter">
+                      <ul class="filter-items">
+                        <li><a class="filter" href="#" data-filter="*" class="current">Show all</a></li>
+                        <li><a class="filter" href="#" data-filter=".software-development">Software Development</a></li>
+                        <li><a class="filter" href="#" data-filter=".data-vis">Data Visualisation</a></li>
+                        <li><a class="filter" href="#" data-filter=".maps">Maps</a></li>
+                        <li><a class="filter" href="#" data-filter=".writing">Writing</a></li>
+                      </ul>
                     </div>
+
                 </div>
             </div>
 
             <div class="row">
 
-                <div class="portfolioContainer isotope">
+                <div class="portfolioContainer isotope portfolio-items">
 
                     <div class="element-item isotope-item software-development">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -116,7 +120,7 @@
                     </div>
 
                     <div class="element-item isotope-item maps">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -131,7 +135,7 @@
                     </div>
 
                     <div class="element-item isotope-item software-development">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -146,7 +150,7 @@
                     </div>
 
                     <div class="element-item isotope-item data-vis">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -161,7 +165,7 @@
                     </div>
 
                     <div class="element-item isotope-item maps">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -176,7 +180,7 @@
                     </div>
 
                     <div class="element-item isotope-item maps">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -191,7 +195,7 @@
                     </div>
 
                     <div class="element-item isotope-item software-development">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -206,7 +210,7 @@
                     </div>
 
                     <div class="element-item isotope-item maps">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -221,7 +225,7 @@
                     </div>
 
                     <div class="element-item isotope-item maps">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -236,7 +240,7 @@
                     </div>
 
                     <div class="element-item isotope-item writing">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -251,7 +255,7 @@
                     </div>
 
                     <div class="element-item isotope-item writing">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="col-lg-4 col-md-6 col-sm-12 nopadding">
                             <div class="portfolio-item">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -275,13 +279,8 @@
     <section class="about" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>About</h2>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12">
-                    <hr>
+                    <hr class='about-top'>
                     <p><b>I'm a young professional embarking on a career in software development and have spent the last two years working as a map-maker at the British Red Cross.</b> I've got degrees in Geography and Art &amp; Design, and spend a lot of
                         time teaching myself things too.</p>
                     <p>I'm genuinely interested in most things and am currently keen on open data, data visualisation and climbing.</p>
