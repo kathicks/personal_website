@@ -1,15 +1,17 @@
 $(window).load(function(){
 
-  $(".portfolio-item").mouseover(function(){
+    // PORTFOLIO TITLE ON HOVER
+    $(".portfolio-item").mouseover(function(){
         $(this).css("border-color", "#2c3e50");
         $(this).children(".portfolio-image").fadeTo(80, 0.15);
     });
+
     $(".portfolio-item").mouseout(function(){
         $(this).css("border-color", "#f1f1f1");
         $(this).children(".portfolio-image").fadeTo(80, 1);
     });
 
-
+    // PORTFOLIO FILTERING
     var $container = $('.portfolioContainer');
     console.log($container);
     $container.isotope({
@@ -20,6 +22,7 @@ $(window).load(function(){
             queue: false
         }
     });
+
     $('.portfolioFilter a').click(function(){
         console.log($('.portfolioFilter a'));
         $('.portfolioFilter .current').removeClass('current');
@@ -36,5 +39,12 @@ $(window).load(function(){
          });
          return false;
     });
+
+    // ANIMATED TYPING ON SUBTITLE
+		$(".animated").typed({
+			strings: ["Junior software developer ^1000 and ex-cartographer"],
+			typeSpeed: 50,
+      showCursor: false
+		});
 
 });
