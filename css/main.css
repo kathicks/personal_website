@@ -207,6 +207,21 @@ header {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .filter-items {
+    font-size: 0.8em;
+  }
+
+  .filter {
+    color: #2c3e50;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.2em;
+  }
+}
+
 /* ---------------- GRID --------------- */
 
 .portfolio-items {
@@ -264,6 +279,14 @@ header {
   }
 }
 
+@media (max-width: 768px) {
+  .portfolio-item {
+    position: relative;
+    width: 100vw;
+    height: 75vw;
+  }
+}
+
 /* ---------------- ABOUT ---------------- */
 
 .about {
@@ -300,7 +323,7 @@ hr {
 }
 
 @media (max-width: 1200px) {
-  .text {
+  p {
     font-size: 0.2em;
   }
 
@@ -311,8 +334,23 @@ hr {
 }
 
 @media (max-width: 992px) {
-  .text {
+  p {
     font-size: 0.1em;
+  }
+
+  .profile-pic {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-info {
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 14px;
   }
 
   .profile-pic {
