@@ -42,7 +42,7 @@ $(window).load(function(){
 
     // ANIMATED TYPING ON SUBTITLE
 		$(".animated").typed({
-			strings: ["Junior software developer ^1000 and ex-cartographer"],
+			strings: ["Junior software developer ^1000 and cartographer"],
 			typeSpeed: 50,
       showCursor: false
 		});
