@@ -17,7 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 header {
   background: #ffffff;
   color: #2c3e50;
-  height: 100vh;
+  margin-top: 70px;
+  height: calc(100vh - 70px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -291,18 +292,27 @@ header {
 }
 
 .about-info {
-  margin-top: 55px;
+  margin-top: 68px;
 }
 
-.text {
-  padding-top: 12px;
+.text p {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+  font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+p.contact {
+  text-align: center;
+  font-size: 14px;
 }
 
 .profile-pic {
   height: 160px;
   width: 160px;
-  margin: 0 auto;
+  margin: 35px auto;
   border-radius: 50%;
   background-size: auto 110%;
   background-position: top center;
