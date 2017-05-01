@@ -23,29 +23,23 @@ header {
   justify-content: center;
 }
 
-.circle {
-  background-color: #ED705E;
-  opacity: 0.75;
-  height: 90vh;
-  width: 90vh;
-  border-radius: 50%;
-  float: right;
-  position: absolute;
-  top: 63.75%; left: 114%;
-  transform: translate(-50%,-50%);
-}
-
 .name {
   font-family: Courier;
   font-size: 5em;
+  padding-top: 13px;
 }
 
 .skills {
   letter-spacing: 0.1em;
 }
 
+.intro-text {
+  margin-left: 3.2vw;
+}
+
 .social-links {
   padding-top: 3%;
+  padding-bottom: 40px;
 }
 
 .btn-outline {
@@ -297,11 +291,11 @@ header {
 }
 
 .about-info {
-  margin-top: 75px;
+  margin-top: 55px;
 }
 
 .text {
-  padding-top: 20px;
+  padding-top: 12px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
