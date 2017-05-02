@@ -100,7 +100,6 @@ header {
 .navbar-default .navbar-nav>.active>a:hover {
   color: #000000;
   border-bottom: solid 1px #000000;
-  letter-spacing: 0.25px;
   background-color: #D6606A;
 }
 
@@ -375,7 +374,7 @@ hr {
 footer {
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.5px;
 }
 
 footer h3 {
@@ -385,7 +384,7 @@ footer h3 {
 
 footer .footer-below {
   padding: 10px 0;
-  background-color: #202020;
+  background-color: #233140;
 }
 
 
