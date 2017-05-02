@@ -286,6 +286,15 @@ header {
 
 /* ---------------- MODALS---------------- */
 
+.close {
+  color: rgba(0, 0, 0, 1);
+  font-size: 32px;
+}
+
+button:focus {
+  outline:0;
+}
+
 .modal-dialog {
   width: 100%;
   height: calc(100vh - 70px);
@@ -311,7 +320,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 165px);
+  height: calc(100vh - 190px);
 }
 
 .landscape {
