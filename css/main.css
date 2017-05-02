@@ -284,6 +284,46 @@ header {
   }
 }
 
+/* ---------------- MODALS---------------- */
+
+.modal-dialog {
+  width: 100%;
+  height: calc(100vh - 70px);
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.65);
+  border: none;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 165px);
+}
+
+.landscape {
+  max-width: 54%;
+  max-height: auto;
+}
+
+.portrait {
+  max-height: 112%;
+  max-width: auto;
+}
+
 /* ---------------- ABOUT ---------------- */
 
 .about {
