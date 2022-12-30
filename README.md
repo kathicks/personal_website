@@ -1,10 +1,6 @@
 # Personal Website
 ### Portfolio website to showcase my work
 
-### View
-
-* Visit [kathicks.co.uk](http://kathicks.co.uk) to see the site
-
 ### Tools
 
 * Used a **Start Bootstrap** template to get the project off the ground
